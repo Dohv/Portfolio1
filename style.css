@@ -1,0 +1,188 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: url('http://i.imgur.com/Jqlws3y.jpg?1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+  height: 105vh;
+  width: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.6);
+  padding-bottom: 50px;
+}
+
+
+span#name {
+  display: inherit;
+  font-size: 70px;
+  color: white;
+  margin: 0px 0px 17px 40px;
+  padding-top: 40px;
+}
+
+span#jobDisplay {
+  height: 20px;
+  width: 100px;
+  color: white;
+  margin-left: 40px;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+nav#navbar {
+  margin-left: 40px;
+}
+
+li.listItem {
+  display: inline;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+ol.list {
+  margin-top: 40px;
+  font-size: larger;
+  font-style: italic;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+main {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+div#profPic {
+  border: 3px solid black;
+  height: 200px;
+  width: 52px;
+  padding-right: 140px;
+  border-radius: 50px;
+  margin-left: 55px;
+  background: url('https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.licdn.com%2Fmpr%2Fmpr%2Fshrinknp_200_200%2FAAEAAQAAAAAAAAqUAAAAJDM1MDhkM2IyLTJiNjgtNGNkMi05YzNmLTdlY2JjMWY4YjAzMg.jpg&f=1')
+}
+
+div.about  {
+  display: inline;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  padding-right: 50px;
+}
+
+p.info {
+  margin-top: 50px;
+}
+
+
+/*=========skills page=========*/
+
+div#skills {
+  height: 100%;
+  width: 100%;
+  /*border: 3px solid orange;*/
+}
+
+li.skill {
+  color: white;
+  font-size: 30px;
+  margin: 40px 0px 0px 40px;
+
+}
+
+
+#nameSkill {
+  display: inherit;
+  font-size: 70px;
+  color: white;
+  margin: 0px 0px 17px 40px;
+  padding-top: 40px;
+}
+
+/*=========projects page=========*/
+
+span#nameProjects {
+  display: inherit;
+  font-size: 70px;
+  color: white;
+  margin: 0px 0px 17px 40px;
+  padding-top: 40px;
+}
+
+main.projects {
+  display: flex;
+  justify-content: center;
+}
+
+img.project {
+  margin: 20px 20px 60px 60px;
+  border: 3px solid white;
+}
+
+img.project:hover {
+  border: 3px solid orange;
+  cursor: pointer;
+}
+
+span.projectDescriptions {
+  color: white;
+  display: flex;
+  
+}
+
+a.projectName {
+  text-align: center;
+  font-size: 25px;
+}
+
+div.vince {
+  text-align: center;
+  color: white;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+/*=========contacts page=========*/
+
+
+span#nameContact {
+  display: inherit;
+  font-size: 70px;
+  color: white;
+  margin: 0px 0px 17px 40px;
+  padding-top: 40px;
+}
+
+ul.contacts {
+  display: flex;
+}
+
+li.contact {
+  margin: 40px;
+  font-size: 40px;
+}
+
+a.contact:hover {
+  color: orange;
+}
+
+
+@media (min-width: 1700px) {
+
+    
+  }
+}
+
+
+
