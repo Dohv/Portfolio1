@@ -90,10 +90,6 @@ p.info {
   margin-top: 50px;
 }
 
-.project_title {
-  font-size: 30px;
-}
-
 /*=========skills page=========*/
 
 div#skills {
@@ -163,6 +159,10 @@ div.vince {
   display: flex;
   position: relative;
   flex-direction: column;
+}
+
+.project_title {
+  font-size: 30px;
 }
 
 /*=========contacts page=========*/
