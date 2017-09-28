@@ -90,6 +90,9 @@ p.info {
   margin-top: 50px;
 }
 
+.project_title {
+  font-size: 30px;
+}
 
 /*=========skills page=========*/
 
@@ -129,7 +132,8 @@ span#nameProjects {
 
 main.projects {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  margin-top: 8%;
 }
 
 img.project {
