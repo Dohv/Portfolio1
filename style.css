@@ -21,7 +21,6 @@ span#name {
   color: white;
   margin: 0px 0px 17px 40px;
   padding-top: 40px;
-  /*font-family: 'Dosis', sans-serif;*/
   font-family: 'Dosis', sans-serif;
 }
 
@@ -40,11 +39,16 @@ nav#navbar {
   font-family: 'Dosis', sans-serif;
 }
 
-li.listItem {
+.listItem {
   display: inline;
   text-decoration: none;
   margin-right: 40px;
   font-family: 'Dosis', sans-serif;
+  border-radius: 7px;
+}
+
+.listItem:hover {
+  text-decoration: underline;
 }
 
 ol.list {
