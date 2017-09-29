@@ -90,6 +90,18 @@ p.info {
   margin-top: 50px;
 }
 
+footer {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 39%;
+}
+
+.icon {
+  margin: 0px 25px 5px 25px;
+}
+
+
 /*=========skills page=========*/
 
 div#skills {
