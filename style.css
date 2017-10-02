@@ -4,6 +4,9 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background: url('https://i.imgur.com/BKsTxGS.jpg?1');
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,38 +70,39 @@ a {
 
 main {
   display: flex;
-  align-items: center;
-  margin-top: 20px;
+  flex-direction: row;
   font-family: 'Dosis', sans-serif;
+  margin-bottom: 30px;
 }
 
-div#profPic {
+#profPic {
   border: 3px solid black;
   height: 200px;
   width: 52px;
   padding-right: 140px;
   border-radius: 50px;
-  margin-left: 55px;
+  margin: 0px 0px 0px 55px;
   background: url('https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.licdn.com%2Fmpr%2Fmpr%2Fshrinknp_200_200%2FAAEAAQAAAAAAAAqUAAAAJDM1MDhkM2IyLTJiNjgtNGNkMi05YzNmLTdlY2JjMWY4YjAzMg.jpg&f=1')
 }
 
-div.about  {
-  display: inline;
+.about  {
+  display: flex;
+  flex-direction: column;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   margin-left: 20px;
   padding-right: 50px;
 }
 
 p.info {
-  margin-top: 50px;
+margin-bottom: 40px;
+font-size: 20px;
 }
 
 footer {
+  display: flex;
+  justify-content: center;
   color: white;
-  position: fixed;
-  bottom: 0;
-  left: 39%;
 }
 
 .icon {
@@ -207,8 +211,26 @@ a.contact:hover {
 }
 
 
-@media (min-width: 1700px) {
+/*mobile version*/
 
+@media (max-width: 1700px) {
+  div#profPic {
+  border: 3px solid black;
+  height: 200px;
+  width: 52px;
+  padding-right: 140px;
+  border-radius: 50px;
+  margin-left: 55px;
+  background: url('https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.licdn.com%2Fmpr%2Fmpr%2Fshrinknp_200_200%2FAAEAAQAAAAAAAAqUAAAAJDM1MDhkM2IyLTJiNjgtNGNkMi05YzNmLTdlY2JjMWY4YjAzMg.jpg&f=1')
+}
+
+div.about  {
+  display: inline;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  padding-right: 50px;
+}
 }
 
 
