@@ -78,14 +78,15 @@ main {
   display: flex;
   align-self: flex-start;
   border: 3px solid black;
-  height: 227px;
+  height: 210px;
   width: 210px;
   border-radius: 50px;
   margin-left: 20px;
   margin-bottom: 30px;
   padding-right: 175px;
-  background: url('https://i.imgur.com/GHetPTqm.jpg');
+  background: url('https://i.imgur.com/GHetPTqm.jpg') no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 @media (max-width: 700px) {
