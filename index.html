@@ -1,46 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel='stylesheet' type='text/css' href='./style.css'>
-  <link rel='stylesheet' type='text/css' href='./reset.css'>
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-  <script src="https://use.fontawesome.com/8d82e3e1ed.js"></script>
-  <title>Dov's Portfolio</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Dov Stokar</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <link rel="stylesheet" href="./font-mfizz/font-mfizz.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-    <header>
-      <div id="wrapperHeader">
-        <span id='name'>Dov Stokar</span>
-        <span id='jobDisplay'>Full Stack Web Developer</span>
-        <nav id='navbar'>
-          <ol class='list'>
-            <li class='listItem'><a href="index.html">Home</a></li>
-            <li class='listItem'><a href="skills.html">|  Skills</a></li>
-            <li class='listItem'><a href="projects.html">|  Projects</a></li>
-          </ol>
-        </nav>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Dov Stokar</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#aboutSection">About</a></li>
+        <li><a href="#skillsSection">Skills</a></li>
+        <li><a href="#myWorkSection">My Work</a></li>
+        <li><a href="#footerSection">Contact</a></li>
+        <li><a href="./DovStokarResume.pdf">Resume</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="#aboutSection">About</a></li>
+        <li><a href="#skillsSection">Skills</a></li>
+        <li><a href="#myWorkSection">My Work</a></li>
+        <li><a href="#footerSection">Contact</a></li>
+        <li><a href="./DovStokarResume.pdf">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="anime-container">
+          <div class="circle fixed"></div>
+          <div class="letterD fixed"></div>
+          <div class="vLine1 fixed"></div>
+          <div class="vLine2 fixed"></div>    
+       
+        <div class="box">
+            <div class="hid-box">
+              <h3><i id="lastName" class="mdi-content-send">STOKAR</i></h3>
+            </div>
+        </div>
       </div>
-    </header>
-    <main>
-      <div id='profPic'></div>
-      <div class='about'>
-        <p class='info'>I bring joy and passion to the web development field. I work as a part of the team, never leaving a man behind.  I am a listener who is always looking to learn.  I believe that people, when in the correct environment, are capable of achieving anything.  My ambitions match well with hard work and consistency, giving me the ability to overcome any obstacle with focus and love for what I do.</p>
-        <p class='info'>After my military service in the Israeli Defense Forces, I completed my Bachelors degree in Psychology at Touro College. My interest in how people think led me to App Academy's online course in JavaScript and later to General Assembly's Web Develoment Immersive coding bootcamp in New York, where I learned to build and design full stack web applications. I am always looking to learn more and to grow as a person and as a programmer. Oh, and Dov means bear in hebrew.</p>
-        <p class='info'>Hope you enjoy my site!</p>
+    </div>
+    <div class="parallax"><img src="https://i.imgur.com/BKsTxGS.jpg?1" alt="Dov means bear"></div>
+  </div>
+
+  <div id="aboutSection" class="section scrollspy">
+    <div class="section">
+      <div class="row about-container">
+        <div class="profilePicContainer">
+          <img class="responsive-img pic" src="https://i.imgur.com/DZH4ChO.jpg">
+        </div>
+        <div class="col s12 center about">
+          <h4>About</h4>
+          <p class='info'>I bring joy and passion to the web development field. I work as a part of the team, never leaving a man behind.  I am a listener who is always looking to learn.  I believe that people, when in the correct environment, are capable of achieving anything.  My ambitions match well with hard work and consistency, giving me the ability to overcome any obstacle with focus and love for what I do.</p>
+          <p class='info'>After my military service in the Israeli Defense Forces, I completed my Bachelors degree in Psychology at Touro College. My interest in how people think led me to App Academy's online course in JavaScript and later to General Assembly's Web Develoment Immersive coding bootcamp in New York, where I learned to build and design full stack web applications. I am always looking to learn more and to grow as a person and as a programmer. Oh, and Dov means bear in hebrew.</p>
+          <p class='info'>Hope you enjoy my site!</p>
+        </div>
       </div>
-   </main>
-   <footer>
-     <div class=wrapper>
-        <a class='contact' href="mailto:Dov.stokar@gmail.com"><i class="fa fa-envelope-o fa-3x icon" aria-hidden="true"></i></a>
-        <a class='contact' href="https://github.com/Dohv"><i class="fa fa-github fa-3x icon" aria-hidden="true"></i></a>
-        <a class='contact' href="https://www.linkedin.com/in/dov-stokar/"><i class="fa fa-linkedin-square fa-3x icon" aria-hidden="true"></i></a>
-     </div>
-   </footer>
-</body>
+
+    </div>
+  </div>
+
+
+  
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <!-- <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div> -->
+      </div>
+    </div>
+    <div class="parallax"><img class="ga-photo" src="https://i.imgur.com/W02a6Ish.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+    <div id="skillsSection" class="section scrollspy">
+
+      <!--   Icon Section   -->
+      <span class="center"><h4>Skills</h4></span>
+      <div class="skillsSection">
+        <div class="front-end-development">
+          <span class="center"><h5>Front-end Development</h5></span>
+          <div class="front-end-skills-container">
+            <div class="icon-container">
+              <i class="icon-javascript-alt skill-icon" style="color:rgb(235,213,62)"></i>
+              <p class="icon-title">JavaScript</p>
+            </div>
+            <div class="icon-container">
+                <i class="icon-css3 skill-icon" style="color:rgb(49,123,185)"></i>
+                <p class="icon-title">CSS3</p>
+            </div>
+            <div class="icon-container">
+              <i class="icon-html5-alt skill-icon" style="color:rgb(220,54,30)"></i>
+              <p class="icon-title">HTML5</p>
+            </div>
+            <div class="icon-container">
+                <i class="icon-jquery skill-icon" style="color:rgb(14,83,157)"></i>
+              <p class="icon-title">JQuery</p>
+            </div>
+            <div class="icon-container">
+                <i class="icon-reactjs skill-icon" style="color:rgb(84,209,249)"></i>
+              <p class="icon-title">React.js</p>
+            </div>
+            <div class="icon-container">
+                <i class="icon-bootstrap skill-icon" style="color:rgb(70,45,107)"></i>
+              <p class="icon-title">Bootstrap</p>
+            </div>
+          </div>
+        </div>
+        <div class="back-end-development">
+          <span class="center"><h5>Back-end Development</h5></span>
+          <div class="front-end-skills-container">
+              <div class="icon-container">
+                <i class="icon-nodejs skill-icon" style="color:rgb(114,199,32)"></i>
+                <p class="icon-title">Node.js</p>
+              </div>
+              <div class="icon-container">
+                <i class="icon-ruby skill-icon" style="color:rgb(218,35,41)"></i>
+                <p class="icon-title">Ruby</p>
+              </div>
+              <div class="icon-container">
+                <i class="icon-ruby-on-rails-alt skill-icon" style="color:rgb(148,26,54)"></i>
+                <p class="icon-title">Rails</p>
+              </div>
+              <div class="icon-container">
+                <i class="icon-azure skill-icon" style="color: rgb(11,92,186)"></i>
+                <p class="icon-title">Azure</p>
+              </div>
+              <div class="icon-container">
+                <i class="icon-docker skill-icon" style="color: rgb(22,115,185)"></i>
+                <p class="icon-title">Docker</p>
+              </div>
+              <div class="icon-container">
+                <i class="icon-heroku skill-icon" style="color: rgb(106,63,181)"></i> 
+                <p class="icon-title">Heroku</p>
+              </div>
+              <div class="icon-container">
+                <i class="icon-git skill-icon" style="color: rgb(233,57,39)"></i>
+                <p class="icon-title">Git</p>
+              </div>
+              <div class="icon-container">
+                <i class="icon-database skill-icon" style="color: rgb(4,45,70)"></i>
+                <p class="icon-title">SQLlite</p>
+              </div>
+              <div class="icon-container">
+                <i class="icon-mssql skill-icon" style="color: rgb(215,53,54)"></i>
+                <p class="icon-title">SQL Server</p>
+              </div>
+              <div class="icon-container">
+                <i class="icon-mysql-alt skill-icon" style="color: rgb(40,91,104)"></i>
+                <p class="icon-title">MySQL</p>
+              </div>
+              <div class="icon-container">
+                <i class="icon-postgres skill-icon" style="color:rgb(40,82,126)"></i>
+                <p class="icon-title">PostgresSQL</p>
+              </div>
+              <div class="icon-container">
+                <i class="icon-csharp skill-icon"></i>
+                <p class="icon-title">C-Sharp</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="section valign-wrapper" style="background: darkgray">
+      <iframe style="margin: auto" width="560" height="315" src="https://www.youtube.com/embed/h8K49dD52WA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+
+  <div id="myWorkSection" class="section scrollspy">
+      <span class="center"><h4>My Work</h4></span>
+    <div class="my-work-container">
+      <div class="col s3">
+          <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class='activator' id='checkers' src="https://i.imgur.com/UuebnrSm.png" alt="checkers_game">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Checkers<i class="material-icons right">more_vert</i></span>
+                <p><a href="http://curator-basins-12285.bitballoon.com/">Play</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Checkers<i class="material-icons right">close</i></span>
+                <p>Technologies used:</p>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+            </div>
+      </div>
+      <div class="col s3">
+          <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class='activator' id='checkers' src="http://i.imgur.com/DdEl0kJm.png" alt="Express_CRUD app">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Express CRUD App<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/Dohv/Express_crud_app">Github Repo</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Express CRUD App<i class="material-icons right">close</i></span>
+                <p>Technologies used:</p>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Express.js</li>
+                  <li>EJS</li>
+                </ul>
+              </div>
+            </div>
+      </div>
+      <div class="col s3">
+          <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class='activator' id='checkers' src="http://i.imgur.com/Ur0oh4Gm.png" alt="Express/React app">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">React app<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/Dohv/project_3">Github repo</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">React App<i class="material-icons right">close</i></span>
+                <p>Technologies used:</p>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Express.js</li>
+                  <li>PostgresSQL</li>
+                  <li>React.js</li>
+                </ul>
+              </div>
+            </div>
+      </div>
+      <div class="col s3">
+          <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class='activator' src="https://i.imgur.com/lSQuK8Im.png" alt="alpha_bloge">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Alpha Blog<i class="material-icons right">more_vert</i></span>
+                <p><a href="http://alpha-blog-dov.herokuapp.com/">Link to site</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Alpha Blog<i class="material-icons right">close</i></span>
+                <p>Technologies used:</p>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>  
+                  <li>Ruby on Rails</li>
+                  <li>SQLlite</li>
+                  <li>Erb</li>
+                  <li>Heroku</li>
+                </ul>
+              </div>
+            </div>
+      </div>
+      <div class="col s3">
+          <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class='activator' src="https://i.imgur.com/XSRurZqm.png" alt="finance_tracker">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Finance Tracker<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://finance-tracker-dov.herokuapp.com/">Link to site</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Finance Tracker<i class="material-icons right">close</i></span>
+                <p>Technologies used:</p>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Jquery/Ajax</li>
+                  <li>Ruby on Rails</li>
+                  <li>SQLlite</li>
+                  <li>Erb</li>
+                  <li>Heroku</li>
+                </ul>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+
+  <footer id="footerSection" class="page-footer scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="black-text">Thanks for visiting</h5>
+          <p class="black-text text-lighten-4">I hope you enjoyed my site! Please feel free to contact me if you have any questions or would just like to chat. Let me know what you think. </p>
+          <p class="black-text">All the best.</p>
+      </div>
+        <div class="col l3 s12">
+          <h5 class="black-text">Social Media</h5>
+          <ul>
+            <li><a class=footerLink href="mailto:Dov.stokar@gmail.com"><i class="fas fa-envelope-square"></i></a></li>
+            <li><a class=footerLink href="https://github.com/Dohv"><i class="fab fa-github-square"></i></a></li>
+            <li><a class=footerLink href="https://www.linkedin.com/in/dov-stokar"><i class="fab fa-linkedin"></i></a></li>
+            <li class=footerLink><i class="fas fa-smile"></i></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="black-text">Take a second look</h5>
+          <ul>
+            <li><a class="black-text footerLink" href="#aboutSection">About</a></li>
+            <li><a class="black-text footerLink" href="#skillsSection">Skills</a></li>
+            <li><a class="black-text footerLink" href="#myWorkSection">My Work</a></li>
+            <li><a class="black-text footerLink" href="/DovStokarResume.pdf">Resume</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  
+  </body>
 </html>
-
-
-

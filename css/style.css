@@ -1,0 +1,425 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.brand-logo {
+  margin-left: 2%;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: 0 auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.material-icons {
+  color: rgb(52, 52, 52);
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* name animation */
+
+
+.anime-container {
+  height: 400px;
+  width: 1040px;
+  border: 1px solid transparent;
+  position: relative;
+  margin: auto;
+  margin-top: 7%;
+}
+
+.circle {
+  height: 60%;
+  width: 23%;
+  border: 2px solid white;
+  border-left: 5px solid white;
+  border-radius: 50%;
+  z-index: 10;
+  left: 40%;
+}
+
+.letterD {
+  height: 60%;
+  width: 11.2%;
+  border: 2px solid white;
+  border-left: 5px solid white;
+  border-bottom-right-radius: 600px;
+  border-top-right-radius: 600px;
+  left: 51.68%;
+  animation-name: D;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+@keyframes D {
+  from {left: 51.68%; width: 11.2%;}
+  to {left: 22%; width: 14.9%;}
+}
+
+
+ .vLine1 {
+  height: 60%;
+  width: 300px;
+  border: 2px solid;
+  border-left: 5px solid white;
+  border-color: transparent transparent transparent white;
+  left: 51.68%;
+  animation-name: V1;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+ @keyframes V1 {
+  from {left: 51.68%;}
+  to {left: 67%; transform: skewx(20deg)}
+}  
+
+.vLine2 {
+  height: 44.3%;
+  width: 300px;
+  border: 2px solid;
+  border-color: transparent transparent transparent white; 
+  transform: skewX(-30deg);
+  left: 56.5%;
+  top: 15.8%;
+  animation-name: V2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+} 
+
+ @keyframes V2 {
+  from {left: 56.5%; height: 44.3%; transform: skewX(-30deg);}
+  to {left: 75.3%; top:0px; height: 60%; transform: skewX(-20deg);}
+}  
+
+.fixed {
+  position: absolute;
+}
+
+#lastName {
+  margin: 0;
+  color: rgba(255,255,255,.6);
+  font-family: Arial, Helvetica, sans;
+  font-style: oblique;
+  font-size: 45px;
+}
+.box {
+  height: 61px;
+  width: 300px;
+  overflow: hidden;
+  background: transparent;
+  position: absolute;
+  left: 68%;
+  top: 45%;
+}
+.hid-box {
+  text-align: center;
+  top: 100%;
+  position: relative;
+  transition: all .6s ease-out;
+  background: transparent;
+  height: 100%;
+  animation-name: lastName;
+  animation-duration: .8s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.9s;
+}
+
+@keyframes lastName {
+  from {top: 100%;}
+  to {top: 0}
+}
+
+/* mobile animation */
+
+@media (max-width: 600px) {
+  .anime-container {
+    height: 150px;
+    width: 300px;
+    border: 1px solid transparent;
+    position: relative;
+    margin: auto;
+    margin-top: 7%;
+  }
+
+  .circle {
+    height: 60%;
+    width: 28%;
+    border: 2px solid white;
+    border-radius: 50%;
+    z-index: 10;
+    left: 38%;
+  }
+
+  .letterD {
+    height: 60%;
+    width: 14.1%;
+    border: 2px solid white;
+    border-bottom-right-radius: 600px;
+    border-top-right-radius: 600px;
+    left: 51.68%;
+    animation-name: D;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+  }
+  
+  @keyframes D {
+    from {left: 51.68%; width: 14.1%;}
+    to {left: 16.5%; width: 18.5%;}
+  }
+  
+  
+   .vLine1 {
+    height: 60%;
+    width: 300px;
+    border: 2px solid;
+    border-color: transparent transparent transparent white;
+    left: 51.68%;
+    animation-name: V1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+  }
+  
+   @keyframes V1 {
+    from {left: 51.68%;}
+    to {left: 71.1%; transform: skewx(20deg)}
+  }  
+  
+  .vLine2 {
+    height: 43.4%;
+    width: 300px;
+    border: 2px solid;
+    border-color: transparent transparent transparent white; 
+    transform: skewX(-30deg);
+    left: 57.5%;
+    top: 16.8%;
+    animation-name: V2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+  } 
+  
+   @keyframes V2 {
+    from {left: 57.5%; height: 43.4%; transform: skewX(-30deg);}
+    to {left: 81.8%; top:0px; height: 60%; transform: skewX(-20deg);}
+  }  
+  
+  .fixed {
+    position: absolute;
+  }
+  
+  #lastName {
+    margin: 0;
+    color: rgba(255,255,255,.7);
+    font-family: Arial, Helvetica, sans;
+    font-style: oblique;
+    font-size: 35px;
+  }
+
+  .box {
+    height: 59px;
+    width: 300px;
+    overflow: hidden;
+    background: transparent;
+    position: absolute;
+    left: 1%;
+    top: 63%;
+  }
+  .hid-box {
+    text-align: center;
+    top: 100%;
+    position: relative;
+    transition: all .6s ease-out;
+    background: transparent;
+    height: 100%;
+    animation-name: lastName;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+    animation-delay: 3.8s;
+  }
+  
+  @keyframes lastName {
+    from {top: 100%;}
+    to {top: 0}
+  }
+}
+
+.pic {
+  padding-top: 15px;
+  padding-left: 20px;
+  max-width: 460px !important;
+}
+
+
+.about-container {
+  display: flex;
+}
+
+/* mobile about container*/
+
+@media (max-width: 600px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .pic {
+    max-width: 100% !important;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+.skill-icon {
+  font-size: 35px;
+}
+
+.skillsSection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.front-end-development, .back-end-development {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 15px;
+}
+
+.front-end-development {
+  border-right: 1px solid grey;
+
+}
+
+.back-end-development {
+  border-left: 1px solid grey;
+}
+
+@media (max-width: 600px) {
+  .skillsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .front-end-development, .back-end-development {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .front-end-development {
+    border-bottom: 1px solid grey;
+    border-right: none;
+  }
+  
+  .back-end-development {
+    border-top: 1px solid grey;
+    border-left: none;
+  }
+}
+
+.front-end-skills-container, .back-end-skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.icon-title {
+  margin: 0 auto;
+}
+
+.card-content {
+  border-top: 2px solid grey;
+}
+
+.my-work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+  .my-work-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+footer {
+  background: linear-gradient(white, grey);
+  color: black;
+}
+
+.footerLink {
+  color: black;
+  font-size: 22px;
+  list-style: decimal;
+}
+
+h5 {
+  text-decoration: underline;
+}
+
