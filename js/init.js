@@ -13,3 +13,7 @@ $(document).ready(function(){
     throttle: 150
   });
 });
+
+// $('.footerLink').hover(() => {
+//   console.log('hovering');
+// })

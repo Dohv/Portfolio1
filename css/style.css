@@ -419,6 +419,14 @@ footer {
   list-style: decimal;
 }
 
+.footerLink:hover { 
+  text-decoration: underline;
+}
+
+.socialMediaIcon:hover {
+  color: grey;
+}
+
 h5 {
   text-decoration: underline;
 }
