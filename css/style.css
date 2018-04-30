@@ -411,6 +411,7 @@ footer.page-footer {
 footer {
   background: linear-gradient(white, grey);
   color: black;
+  padding-bottom: 1px;
 }
 
 .footerLink {
